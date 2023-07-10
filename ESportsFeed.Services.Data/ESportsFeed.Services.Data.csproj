@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EFSportsFeed.Web.Common\ESportsFeed.Web.Common.csproj" />
+    <ProjectReference Include="..\ESportsFeed.Data.Common\ESportsFeed.Data.Common.csproj" />
+    <ProjectReference Include="..\ESportsFeed.Data.Models\ESportsFeed.Data.Models.csproj" />
+    <ProjectReference Include="..\ESportsFeed.Services.Messaging\ESportsFeed.Services.Messaging.csproj" />
+    <ProjectReference Include="..\ESportsFeed.Services.Models\ESportsFeed.Services.Models.csproj" />
+    <ProjectReference Include="..\ESportsFeed.Web.DTOs\ESportsFeed.Web.DTOs.csproj" />
+  </ItemGroup>
+
+</Project>
